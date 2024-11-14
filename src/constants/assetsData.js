@@ -25,10 +25,16 @@ import download from "../assets/icons/download-svgrepo-com 1.png";
 import time from "../assets/icons/time-svgrepo-com 1.png";
 import lambArrow from "../assets/icons/lamp-arrow.png";
 import lambTrack from "../assets/icons/casual-life-3d-idea-lamp 1.png";
+import premiumLeft from "../assets/images/premium-left.png";
+import heart from "../assets/icons/hearts 1.png";
+import jig from "../assets/icons/jigsaw 1.png";
 
 export {
   logo,
   star,
+  premiumLeft,
+  jig,
+  heart,
   track1,
   track2,
   lambArrow,

@@ -1,15 +1,17 @@
 import React from "react";
-import {
-  download,
-  star,
-  time,
-  
-  video,
-} from "../../constants/assetsData";
+import { download, star, time, video } from "../../constants/assetsData";
 
-const TrackCard = ({ course, title, fee, timeCount, videoCount, image, downloadCount }) => {
+const TrackCard = ({
+  course,
+  title,
+  fee,
+  timeCount,
+  videoCount,
+  image,
+  downloadCount,
+}) => {
   return (
-    <div >
+    <div>
       <div className=" bg-white relative  pl-3 pt-3 pr-3  pb-10  rounded-md shadow-lg w-[350px]">
         <div className=" rounded-md ">
           <img className=" rounded-md w-full " src={image} alt="" />
@@ -17,14 +19,16 @@ const TrackCard = ({ course, title, fee, timeCount, videoCount, image, downloadC
         <div className=" mt-2 flex items-center justify-between ">
           <span className=" text-[14px] text-[#ACACAC]">{course}</span>
           <span>
-            <img src={star} alt="" />
+            <img className=" h-2" src={star} alt="" />
           </span>
         </div>
         <div className=" flex flex-col">
           <span className=" text-[16px] text-black font-medium">{title}</span>
           <span className=" text-primary">{fee}</span>
         </div>
-        <hr />
+        <div className=" my-2">
+          <hr />
+        </div>
         <div>
           <ul className=" text-[14px] text-[#ACACAC] flex items-center">
             <li className="flex items-center">
@@ -42,7 +46,9 @@ const TrackCard = ({ course, title, fee, timeCount, videoCount, image, downloadC
           </ul>
         </div>
         <div className="  absolute flex  justify-center w-full items-center z-20 -bottom-4 ">
-            <div className=" px-4 py-1 bg-primary   rounded-full text-white">Join course</div>
+          <div className=" px-4 py-1 bg-primary   rounded-full text-white">
+            Join course
+          </div>
         </div>
       </div>
     </div>
