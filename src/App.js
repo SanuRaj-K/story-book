@@ -1,9 +1,10 @@
- import './App.css';
+import "./App.css";
+import Landing from "./pages/landing";
 
 function App() {
   return (
-    <div className="App">
-       
+    <div className="App   font-roboto overflow-hidden">
+      <Landing />
     </div>
   );
 }
