@@ -23,12 +23,16 @@ import star from "../assets/icons/stars.png";
 import video from "../assets/icons/video-svgrepo-com 1.png";
 import download from "../assets/icons/download-svgrepo-com 1.png";
 import time from "../assets/icons/time-svgrepo-com 1.png";
+import lambArrow from "../assets/icons/lamp-arrow.png";
+import lambTrack from "../assets/icons/casual-life-3d-idea-lamp 1.png";
 
 export {
   logo,
   star,
   track1,
   track2,
+  lambArrow,
+  lambTrack,
   video,
   download,
   time,
