@@ -58,3 +58,12 @@ export const trackList = [
     Image: track3,
   },
 ];
+
+export const footerListOne = [
+  "about us",
+  "how to work",
+  "popular course",
+  "service",
+];
+export const footerListTwo = ["categories", "offline course", "video course"];
+export const footerListThree = ["FAQ", "help center", "career", "privacy"];

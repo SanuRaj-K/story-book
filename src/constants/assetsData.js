@@ -28,12 +28,16 @@ import lambTrack from "../assets/icons/casual-life-3d-idea-lamp 1.png";
 import premiumLeft from "../assets/images/premium-left.png";
 import heart from "../assets/icons/hearts 1.png";
 import jig from "../assets/icons/jigsaw 1.png";
+import arrowPrimary from "../assets/icons/landing-icons/arrow-primary.png";
+import newsletterRound from "../assets/icons/landing-icons/round-newsletter.png";
 
 export {
   logo,
   star,
   premiumLeft,
   jig,
+  arrowPrimary,
+  newsletterRound,
   heart,
   track1,
   track2,
